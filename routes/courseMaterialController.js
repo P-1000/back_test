@@ -1,4 +1,4 @@
-import Course from '../Models/courseModel.js';
+import Course from './CourseModel.js'
 import Fuse from 'fuse.js';
 
 //adding Course Name and Code to DB : POST REQ
