@@ -5,7 +5,7 @@ import {
     deleteCourse,
     searchCourse,
     getCourseByCode
-            } from './courseMaterialController.js';
+            } from '../controllers/courseMaterialController.js';
 
 const router = express.Router();
 

@@ -33,7 +33,7 @@ app.use(passport.initialize());
 
 
 app.get("/", (req, res) => {
-  res.send("Server is up and running bro!");
+  res.send("hello");
 });
 
 app.use("/api/auth", authRoutes);
